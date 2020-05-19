@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbrand{
+    font-family: Permanent Marker,cursive;
+    margin-right:100px;
+}
+
+.navlinks{
+    font-family: Permanent Marker,cursive;
+    margin-right:15px;
+}
+
+.appicon {
+    /*height: 38px;
+    width: 360px;*/
+    background-position: right;
+    /*background: black;*/
+}
+
+.apps {
+    height: 40px;
+    width: 40px;
+    /*border-radius: 50%;*/
+    /*background-image: url(bbc.png);*/
+    display: inline-block;
+    background-size: 50px;
+    background-position: center;
+    z-index: -1;
+    /*background-repeat: no-repeat;*/
+}
+.app1{
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 5px
+}
+.app2 {
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.app1:hover {
+    color: #f7f7f7;
+    opacity: 0.5;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+.app2:hover {
+    color: #f7f7f7;
+    opacity: 0.5;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+.approw{
+    height: 50px;
+    width: 360px;
+}
+.firstimage{
+    /*height:540px;
+    width: 360px;
+    background-image: url(cloud.jpg);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*background-size: 406.59px 542.12px;*/
+    margin: auto;
+    display: block;
+}
+.firstbox{
+    margin-top: auto;
+    width: 750px;
+    height: 300px;
+    background-color: #0d497b;
+    opacity: 0.5;
+    display: block;
+    z-index: auto;
+}
+.block100 {
+    height: 100px;
+    /*width: 360px;*/
+    background-position: center;
+    margin: auto;
+    /*background:black;*/
+    /*opacity: 0.5;*/
+}
+.maintitle{
+    opacity: 1;
+    color: white;
+    font-size: xx-large;
+    font-family: Permanent Marker,cursive;
+}
+.subtitle{
+    opacity: 1;
+    color: #343a40;
+    font-size: x-large;
+    font-family: Permanent Marker,cursive;
+    margin-left: 50px;
+}
+
+.text{
+    margin-left: 75px;
+    margin-top: 20px;
+    font-family: Ropa Sans;
+    font-size: larger;
+}
+.subtext {
+    /*margin-left: 5px;
+    margin-top: 20px;*/
+    font-family: Ropa Sans;
+    font-size: large;
+}
+.beat_line{
+    height: 2px;
+    width: 700px;
+    background-position: center;
+    margin: auto;
+}
+.whiteline{
+    height: 5px;
+    width: calc(700px/4);
+    background-position: center;
+    background:grey;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius:2px;
+}
+.blackline{
+    height: 1px;
+    width: calc(1252.4px/5);
+    background-position: center;
+    background: black;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius:2px;
+}
+.firstbutton{
+    height: 50px;
+    width: calc(700px/4);
+    background-position: center;
+    border-style: solid;
+    border-color: #ffc002;
+    /*background:grey;
+    margin: auto;*/
+    border-radius: 25px;
+}
+.firstbutton:hover{
+    background-color: #ffc002;
+    height: 50px;
+    width: calc(700px/4);
+    background-position: center;
+    border-style: solid;
+    border-color: #ffc002;
+    cursor: grab;
+    /*background:grey;
+    margin: auto;*/
+    border-radius: 25px;
+}
+.firstbutton:active{
+    background-color: #ffc002;
+    height: 50px;
+    width: calc(700px/4);
+    background-position: center;
+    border-style: solid;
+    border-color: #ffc002;
+    cursor: grabbing;
+    /*background:grey;
+    margin: auto;*/
+    border-radius: 25px;
+}
+.buttontxt{
+    opacity: 1;
+    font-size: larger;
+    font-family: Bell MT;
+    padding: 10px;
+    color: #ffc002;
+}
+.buttontxt:hover{
+    opacity: 1;
+    font-size: large;
+    font-family: Bell MT;
+    padding: 10px;
+    color: black;
+}
+.footericon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footericon:hover{
+    background-color: #999999;
+    opacity: 0.5;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form-group{
+    padding: 10px;
+    display: block;
+    margin-bottom: 0px;
+}
+.form-control{
+    height: 52px ;
+    background: #fff ;
+    color: #000000 ;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.send{
+    border-radius: 20px;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    display: block;
+}
+.send:hover{
+    border-radius: 20px;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    background-color: #007bff;
+    border-color: #007bff;
+    opacity: 0.5;
+    color: white;
+    display: block;
+}
