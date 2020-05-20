@@ -236,3 +236,31 @@ html{
     color: white;
     display: block;
 }
+.secondbutton{
+    height: 50px;
+    width: calc(700px/4);
+    background-position: center;
+    border-style: solid;
+    border-color: #65a6eb;
+    /*background:grey;
+    margin: auto;*/
+    border-radius: 25px;
+}
+.secondbutton:hover{
+    background-color: #65a6eb;
+    height: 50px;
+    width: calc(700px/4);
+    background-position: center;
+    border-style: solid;
+    border-color: #bccee1;
+    cursor: grab;
+    /*background:grey;
+    margin: auto;*/
+    border-radius: 25px;
+}
+.secondbuttontxt{
+    opacity: 1;
+    font-size: larger;
+    font-family: Bell MT;
+    padding: 10px;
+    color: #000000;
