@@ -10,11 +10,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.0/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!--navbar-->
 
-    <div class="container-fluid"style="height: 55px">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"id="navbar-toggle-icon">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="container-fluid" style="height: 55px">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="navbar-toggle-icon">
           <a class="navbar-brand navbrand" href="index.html">Jui-Jiun Lin</a>
           <!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -52,7 +54,7 @@
             <div class="maintitle">An enthusiastic boy from Taichung</div>
             <div class="whiteline"></div>
             <div class="maintitle">Motto :</div>
-            <div class="maintitle"style="font-size: xx-large">Some people are like clouds... <br>It's a beautiful day when they're gone.</div>
+            <div class="maintitle"style="font-size: xx-large">Today is not my day... Cause I just knew my dorm will be so far away.</div>
             <div style="height: 90px;padding-top: 20px" align="center">
                 <div href="#Introduction" class="buttontxt firstbutton" onclick="goToAnchor('Introduction')">Find out more!!!</div>
             </div>
@@ -108,12 +110,20 @@
                     <li style="list-style-type: square">Department of Atmospheric Science, National Taiwan University (2019.09~)</li>
                     <li style="list-style-type: square">Mingdao High School(2016.09~2019.06)</li>
                 </ul>
-                <div class="subtitle">Computer Language</div>
+                <div class="subtitle">Professional skills</div>
                 <ul class="text">
-                    <li style="list-style-type: square">Python</li>
-                    <li style="list-style-type: square">Fortran95</li>
-                    <li style="list-style-type: square">GrADs ( for earth science data )</li>
-                    <li style="list-style-type: square">HTML5,CSS,Javascript ( I'm trying hard to learn them !!! )</li>
+                    <li style="list-style-type: square"> computer language
+                        <ul class="subtext">
+                            <li style="list-style-type: circle">
+                                Python,Fortran95,GrADs ( for earth science data )
+                            </li>
+                            <li style="list-style-type: circle">
+                                HTML5,CSS,Javascript ( I'm trying hard to learn them !!! )
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li style="list-style-type: square">Meteorology researching</li>
                 </ul>
                 <div class="subtitle">Languages</div>
                 <ul class="text">
@@ -133,7 +143,17 @@
                     <li style="list-style-type: square">Stargazing</li>
                     <li style="list-style-type: square">Play badminton</li>
                 </ul>
-                <div class="subtitle"style="font-size: xx-large;margin-top: 75px">More to expect...</div>
+                <div class="subtitle">Experience</div>
+                <ul class="text">
+                    <li style="list-style-type: square">Ministry of Education high school student academic competencies contest.
+                        <ul class="subtext">
+                            <li style="list-style-type: circle">
+                                    Taichung regional semi-final Honorable mention
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="subtitle"style="font-size: xx-large;margin-top: 25px">More to expect...</div>
             </div>
 
             <div class="col">
@@ -159,14 +179,61 @@
     <!--third slide-->
 
     <a name="Activities"></a>
-    <div class="container-fluid"style="background-color: #e6e6e6;display: block;height: 1000px;position: relative">
+    <div class="container-fluid"style="background-color: #e6e6e6;display: block;height: 1100px;position: relative">
         <div style="height: 100px;padding-top: 20px" align="center">
-            <div class="maintitle"style="color: #343a40">Activities</div>
+            <div class="maintitle"style="color: #343a40">Activities + projects</div>
             <div style="height: 32px">
                 <div class="blackline"></div>
             </div>
         </div>
-
+        <div class="row">
+            <div class="col"style="margin-left: 55px">
+                <div class="card" style="width: 400px;">
+                    <img src="exhibition.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hosting an exhibition</h5>
+                        <p class="card-text">A twenty-people team including me hosted an exhibition in my high school.
+                        The photo was taken when I was illustrating how solar eclipses happen.</p>
+                    </div>
+                    <img src="astronomy%20club.JPG" class="card-img-top" alt="..."style="margin-top: 30px">
+                    <div class="card-body">
+                        <h5 class="card-title">Astronomy Club</h5>
+                        <p class="card-text">I'm 45th vice president of Astronomy Club in my high school.
+                            I was teaching how to use the telescope then.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 400px;">
+                    <img src="badminton.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Badminton Team</h5>
+                        <p class="card-text">Play badminton is one of my hobbies.
+                            I went on a winter training with the badminton team in our department.</p>
+                    </div>
+                    <img src="webcrawler.jpg" class="card-img-top" alt="..."style="margin-top: 30px">
+                    <div class="card-body">
+                        <h5 class="card-title">Project : Web crawler</h5>
+                        <p class="card-text">The project crawls data on PTT, which is helpful while choosing courses.</p>
+                        <a href="webcrawler.rar"download class="btn btn-primary">Take a look!!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 400px;">
+                <img src="poster.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Project : Discussion of how twilight occurs and a simple demonstration</h5>
+                        <p class="card-text">The final report of The introduction of Atmospheric Sciences,
+                            done by the other two members and I. In the report, we discussed about Rayleigh and Mie scattering.
+                            We constructed a simple model of Rayleigh scattering using python, and did an experiment to demonstrate the effect of aerosols.
+                        </p>
+                        <a href="大概海報.pdf\"download class="btn btn-primary">Take a look</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subtitle"style="font-size: xx-large;margin-top: 25px">More to expect...</div>
         <!--div style="height: 844px"></div-->
 
     </div>
@@ -187,7 +254,7 @@
             </div>
 
             <div class="col" style="width: 639.2px;padding-left: 0px">
-                <form action="#"style="padding-right: 150px">
+                <form action="mailto:b08209009@g.ntu.edu.tw" method="post" enctype="text/plain" style="padding-right: 150px">
                       <div class="form-group">
                           <input class="form-control" placeholder="Your name" id="name">
                       </div>
@@ -201,7 +268,8 @@
                           <textarea class="form-control" placeholder="Message" id="message"style="height: 250px;vertical-align: text-top"></textarea>
                       </div>
                       <div class="form-group">
-                          <input type="button" class="send btn" value="Send">
+                          <input type="submit" class="send btn" value="Send">
+                          <input class="send btn" type="reset" value="Reset">
                       </div>
 
 
@@ -293,15 +361,34 @@
                 }
     </script>
     <script type="text/javascript">
+
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction(),hide()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
         var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar-toggle-icon").style.top = "0";
-            } else {
-                document.getElementById("navbar-toggle-icon").style.top = "-56px";
+        function hide(){
+            var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar-toggle-icon").style.top = "0";
+                } else {
+                    document.getElementById("navbar-toggle-icon").style.top = "-56px";
+                }
+                prevScrollpos = currentScrollPos;
             }
-            prevScrollpos = currentScrollPos;
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
         }
     </script>
 
