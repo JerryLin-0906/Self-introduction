@@ -133,7 +133,7 @@
 </ul>
 </ul>
 
-<ul>參考資料:
+<ul style="list-style-type: circle">參考資料:
 
 <ul class="subtext"style="list-style-type: circle">
     navbar(以bootstrap4模板做修改) 
