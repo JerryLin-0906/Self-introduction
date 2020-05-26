@@ -135,31 +135,31 @@
 
 <ul>參考資料:
 
-<ul class="subtext">
+<ul class="subtext"style="list-style-type: circle">
     navbar(以bootstrap4模板做修改) 
 </ul>
-<ul class="subtext">
-    navbar在下滑時會收起來，參考https://stackoverflow.com/questions/57235230/want-to-hide-show-navbar-when-scroll-down-up-using-js-or-jquery
+<ul class="subtext"style="list-style-type: circle">
+    navbar在下滑時會收起來，參考<br>https://stackoverflow.com/questions/57235230/want-to-hide-show-navbar-when-scroll-down-up-using-js-or-jquery
 </ul>
-<ul class="subtext">
-    點擊navbar上的按鈕滑至特定區域(anchor)、點擊Find out more!可滑至標題為Introduction的區域、點擊Get started!可滑至標題為About me的區域，參考https://stackoverflow.com/questions/11815295/javascript-inline-onclick-goto-local-anchor
+<ul class="subtext"style="list-style-type: circle">
+    點擊navbar上的按鈕滑至特定區域(anchor)、點擊Find out more!可滑至標題為Introduction的區域、點擊Get started!可滑至標題為About me的區域，參考<br>https://stackoverflow.com/questions/11815295/javascript-inline-onclick-goto-local-anchor
 </ul>
-<ul class="subtext">
+<ul class="subtext"style="list-style-type: circle">
     About Me相片卷軸(以bootstrap4模板做修改) 
 </ul>
-<ul class="subtext">
+<ul class="subtext"style="list-style-type: circle">
     點擊可下載檔案(修改至W3school)
 </ul>
-<ul class="subtext">
+<ul class="subtext"style="list-style-type: circle">
     寄信區形式為form(以bootstrap4模板做修改) 
 </ul>
-<ul class="subtext">
+<ul class="subtext"style="list-style-type: circle">
     點擊"Send"按鈕可啟動電腦內建的電子郵件功能(參考W3school) 
 </ul>
-<ul class="subtext">
+<ul class="subtext"style="list-style-type: circle">
     點擊"Reset"按鈕可將form區輸入的文字清空(參考W3school) 
 </ul>
-<ul class="subtext">
+<ul class="subtext"style="list-style-type: circle">
     To-The-Top button(修改至W3school):
 </ul>
 
